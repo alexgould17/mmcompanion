@@ -1,0 +1,4 @@
+# Project Readme
+This is intended to be a web browser-based interface that both stores relevant game data for walkthru purposes & also keeps track of the user's progress in a particular playthru. Filling in the gaps in information that the game does not show the player, in some sense. For example, under the Awards tab on the inventory screen, a player can see how many taverns they've won an Arcomage game at, but not which taverns are left, which can make for a long process of completing the Arcomage quest if you forget which one of the 11 (Jadame) or 13 (Antagarich) taverns is left!
+
+The actual design specs of the project will be written up in a file named ProjectDesign.md at a later date. This readme will be updated infrequently, but as needed.
