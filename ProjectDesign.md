@@ -119,5 +119,15 @@ Does:
 ## HTML
 Interfaces:
 - Data entry (should be in the .gitignore, this is for me to add/edit data to the game database)
-- 
-## Datafiles & Directory Structure
+- New game creation: should mimic the character creation screen of whichever game is selected (6, 7, 8, or merge), allowing stat & loadout customization before entering the game itself. In addition to choosing stats & skills (interface does not need to exactly mimic the game's, images might be nice though), there should be a little box that display maximum achievable masteries of key skills (disarm, merchant, repair, air, water, spirit, body) with warnings if certain ones (master air for invis e.g.) are inaccessible or locked behind two promotions. This will require a substantial amount of javascript I think.
+## File & Directory Structure
+Directories:
+- `gamedata` will contain datafiles representing the data from the games like maps, monsters, etc. These will not change except as input by me
+- `savedata` will contain datafiles representing the user's game save data (1 per file). Obviously these will change with use of the program.
+- `images` will contain all the image files. These will not change except as I add them.
+
+Scripts & Sheets:
+- `mmcompainon.py` will be the main script that runs in the browser. Hopefully I'll be able to set this up to handle all form data submissions (asynchronously?) as well as html output
+- `classes.py` will contain class definitions as listed above. They're mostly just specialized data containers, not much complex code, so it feels right to shove them all in a single file rather than each having its own.
+- `html.py` will contain all the methods needed to properly output the html layout
+- `style.css` will be the single CSS stylesheet for the whole project. Excited as always to tinker with this for hours on end (:.
