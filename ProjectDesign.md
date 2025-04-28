@@ -129,5 +129,5 @@ Directories:
 Scripts & Sheets:
 - `mmcompainon.py` will be the main script that runs in the browser. Hopefully I'll be able to set this up to handle all form data submissions (asynchronously?) as well as html output
 - `classes.py` will contain class definitions as listed above. They're mostly just specialized data containers, not much complex code, so it feels right to shove them all in a single file rather than each having its own.
-- `html.py` will contain all the methods needed to properly output the html layout
+- `html_tools.py` will contain all the methods needed to properly output the html layout
 - `style.css` will be the single CSS stylesheet for the whole project. Excited as always to tinker with this for hours on end (:.
